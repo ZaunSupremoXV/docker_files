@@ -10,7 +10,7 @@ services:
     volumes:
        - ./mysql/:/var/lib/mysql/
     environment:
-      MYSQL_ROOT_PASSWORD: 312156
+      MYSQL_ROOT_PASSWORD: COLOCA_A_SENHA_AQUI
       MYSQL_ROOT_HOST: '%'
   redis:
     image: redis:6.0-rc1-alpine
